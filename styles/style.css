@@ -4,11 +4,15 @@
     margin: 0;
     font-family: Work Sans;
 }
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
 
 /* header styles */
 .header{
     background: url(../images/banner/banner2.png);
-    height: 860px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,7 +20,7 @@
     color:#151414;
     text-align: right;
     font-family: Work Sans;
-    font-size: 65px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -30,12 +34,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding: 24px 145px 32px 960px;
+    padding: 24px 145px 32px 640px;
 }
 .header-btn{
     width: 160px;
     height: 64px;
-    margin: 0 155px 0 1295px;
+    margin: 0 155px 0 975px;
     border: none;
     border-radius: 5px;
     background: #F15B22;
@@ -45,4 +49,56 @@
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
+}
+
+/* wrong section styles */
+.first-section-container{
+    align-items: center;
+    display: flex;
+}
+.img-content{
+    padding: 200px 100px 120px 130px;
+    z-index:2;
+}
+.dot-contant{
+    z-index:1;
+}
+.dot{
+    height: 527px;
+    width: 527px;
+    background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -128px;
+    margin-left: -646px;
+    position: absolute;
+}
+.fst-content-title{
+    width: 288px;
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 150px 450px 24px 0px;
+}
+.fst-content-des{
+    width: 416px;
+    color:#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 450px 16px 0px;
+}
+.dtails-content h4{
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 8px;
+    padding: 0px 450px 8px 0px;
+}
+.dtails-content i{
+    color: #16D887;
 }
