@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Work Sans;
+}
+
+/* header styles */
+.header{
+    background: url(../images/banner/banner2.png);
+    height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title{
+    color:#151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 215px 230px 0px 845px;
+}
+.header-des{
+    width: 494px;
+    color:#444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 145px 32px 960px;
+}
+.header-btn{
+    width: 160px;
+    height: 64px;
+    margin: 0 155px 0 1295px;
+    border: none;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
